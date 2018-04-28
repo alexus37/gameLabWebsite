@@ -110,6 +110,14 @@ h1{
 #section3 h1{
 	color: #000;
 }
+#section4 {
+	background-image: url(../images/bg1.jpg);
+}
+#section4 h1{
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
 
 
 /*Adding background for the slides

@@ -38,7 +38,7 @@
 				verticalCentered: false,
                 navigation: true,
                 navigationPosition: 'right',
-                anchors:['main', 'aboutUs', 'gameplay', 'technicalInfo']
+                anchors:['main', 'aboutUs', 'gameplay', 'technicalInfo', 'download']
 			});
 
             AOS.init({ disable: 'mobile' });
@@ -58,7 +58,15 @@
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118286726-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
+	  gtag('config', 'UA-118286726-1');
+	</script>
 </head>
 <body>
 
@@ -75,6 +83,7 @@
                         <li data-menuanchor="section1" role="presentation"><a href="#aboutUs">About Us</a></li>
                         <li data-menuanchor="section2" role="presentation"><a href="#gameplay">Game Play</a></li>
                         <li data-menuanchor="section3" role="presentation"><a href="#technicalInfo">Technical Info</a></li>
+						<li data-menuanchor="section4" role="presentation"><a href="#download">Download</a></li>
                     </ul>
                 </div>
             </div>
@@ -277,6 +286,21 @@
                 </p>
             </div>
         </div>
+    </div>
+	<div class="section" id="section4" data-anchor="download">
+		<div class="row-no-margin">
+			<div class="col-md-4" style="margin-top: 20%; padding-left: 20%;">
+				<h3 class="text-left header-title">
+					Download
+				</h3>
+				<p  class="text-left section-p">
+					Download our game for windows.
+				</p>
+			</div>
+			<div class="col-md-8" style="margin-top: 10%">
+				DOWNLOAD LINK and some intruction for installing the game.
+			</div>
+		</div>
     </div>
 </div>
 
